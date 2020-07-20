@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="practice.Framework_Appium.ApiDemoTest">
+        <methods>
+          <include name="apiDemo"/>
+        </methods>
+      </class> <!-- practice.Framework_Appium.ApiDemoTest -->
+      <class name="practice.Framework_Appium.EcommerceApp_tc3">
+        <methods>
+          <include name="totalValidation"/>
+        </methods>
+      </class> <!-- practice.Framework_Appium.EcommerceApp_tc3 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

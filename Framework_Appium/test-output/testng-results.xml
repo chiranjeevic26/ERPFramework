@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="65857" started-at="2020-07-20T11:16:53 IST" finished-at="2020-07-20T11:17:59 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="65857" started-at="2020-07-20T11:16:53 IST" finished-at="2020-07-20T11:17:59 IST">
+      <class name="practice.Framework_Appium.ApiDemoTest">
+        <test-method status="PASS" signature="killAllNodes()[pri:0, instance:practice.Framework_Appium.ApiDemoTest@6043cd28]" name="killAllNodes" is-config="true" duration-ms="3099" started-at="2020-07-20T11:16:53 IST" finished-at="2020-07-20T11:16:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killAllNodes -->
+        <test-method status="PASS" signature="apiDemo(java.lang.String)[pri:0, instance:practice.Framework_Appium.ApiDemoTest@6043cd28]" name="apiDemo" duration-ms="32057" started-at="2020-07-20T11:16:56 IST" data-provider="InputData" finished-at="2020-07-20T11:17:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiDemo -->
+        <test-method status="PASS" signature="apiDemo(java.lang.String)[pri:0, instance:practice.Framework_Appium.ApiDemoTest@6043cd28]" name="apiDemo" duration-ms="30646" started-at="2020-07-20T11:17:28 IST" data-provider="InputData" finished-at="2020-07-20T11:17:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@&##&]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiDemo -->
+      </class> <!-- practice.Framework_Appium.ApiDemoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
