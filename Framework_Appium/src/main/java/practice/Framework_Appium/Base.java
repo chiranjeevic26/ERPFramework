@@ -71,7 +71,8 @@ public class Base {
 		
 		File f=new File("resource");
 		File fs=new File(f,(String) pr.get(app));
-		String device=(String) pr.get("emulator");
+		//String device=(String) pr.get("emulator");
+		String device=System.getProperty("deviceName");
 		DesiredCapabilities capabilities =new DesiredCapabilities();
 		if(device.contains("Emulator")) {
 			startEmulator();
