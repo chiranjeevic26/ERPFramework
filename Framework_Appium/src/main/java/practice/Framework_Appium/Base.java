@@ -32,6 +32,13 @@ public class Base {
 			return service;
 			
 		}
+	 public void takeScreenShots(String ScreenName) throws IOException
+		{
+			File srcFile = driver.getScreenshotAs(OutputType.FILE);
+			File targetFile = new File("E:\\Eclipse_selenium\\Appium_Automation\\Appium ScreenShots\\"+ScreenName+".png");
+			FileUtils.copyFile(srcFile, targetFile);
+			System.out.println("ScreenShot captured :"+targetFile);
+		}
 		
 	public static boolean checkIfServerIsRunnning(int port) {
 			

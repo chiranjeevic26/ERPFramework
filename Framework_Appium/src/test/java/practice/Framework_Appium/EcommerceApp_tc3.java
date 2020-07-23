@@ -111,7 +111,7 @@ public class EcommerceApp_tc3 extends Base {
 		
 		driver.context("WEBVIEW_com.androidsample.generalstore");
 		driver.findElement(By.name("q")).sendKeys("hello");
-		driver.findElement(By.name("q")).sendKeys(Keys.ENTER);;
+		driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
 		driver.pressKey(new KeyEvent(AndroidKey.BACK));
 
 	}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="IEtest(failed)" parallel="tests">
+    <parameter name="portNO" value="4547"/>
+    <parameter name="URL" value="https://www.flipkart.com/"/>
+    <classes>
+      <class name="com.example.tests.E2E_test_Flipkart_Grid">
+        <methods>
+          <include name="tearDown"/>
+          <include name="flipkartLogin"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.example.tests.E2E_test_Flipkart_Grid -->
+    </classes>
+  </test> <!-- IEtest(failed) -->
+  <test thread-count="5" name="FireFoxTest(failed)" parallel="tests">
+    <parameter name="portNO" value="4545"/>
+    <parameter name="URL" value="https://www.flipkart.com/"/>
+    <classes>
+      <class name="com.example.tests.E2E_test_Flipkart_Grid">
+        <methods>
+          <include name="tearDown"/>
+          <include name="flipkartLogin"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.example.tests.E2E_test_Flipkart_Grid -->
+    </classes>
+  </test> <!-- FireFoxTest(failed) -->
+  <test thread-count="5" name="ChromeTest(failed)" parallel="tests">
+    <parameter name="portNO" value="4546"/>
+    <parameter name="URL" value="https://www.flipkart.com/"/>
+    <classes>
+      <class name="com.example.tests.E2E_test_Flipkart_Grid">
+        <methods>
+          <include name="tearDown"/>
+          <include name="flipkartLogin"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.example.tests.E2E_test_Flipkart_Grid -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
